@@ -1,0 +1,62 @@
+/* avoid page breaks in tables */
+/* @media print {
+  table {
+    page-break-inside: avoid;
+  }
+} */
+
+a {
+  color: #006ba6;
+  text-decoration: none;
+}
+
+a:hover,
+.anchor:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  transition: all 0.25s ease-in-out;
+}
+
+tr:hover {
+  background: #f7f7f7;
+}
+
+th {
+  padding: 10px 0px;
+  vertical-align: middle;
+  text-align: center;
+  border-bottom: 1px solid #d3d6dc;
+  color: #677083;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+.mycontent-left {
+  border-right: 1px solid #333;
+}
+
+/*table border color #D3D6DC is from styleguide $graphite-dark
+*/
+th[scope="col"] {
+  border-bottom: 2px solid #d3d6dc;
+}
+
+th[scope="row"] {
+  border-right: 2px solid #d3d6dc;
+  text-align: center;
+}
+
+td {
+  /* padding: 10px 0px; */
+  border-bottom: 1px solid #d3d6dc;
+  text-align: center;
+}
+
+/* styles for code snippets */
